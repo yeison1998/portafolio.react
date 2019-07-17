@@ -1,0 +1,39 @@
+{
+    "name": "portafolio.react",
+    "version": "1.0.0",
+    "description": "portafolio digital creado desde cero haciendo uso de react",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack-dev-server --open --mode development",
+        "build": "webpack --mode production"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yeison1998/portafolio.react.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/yeison1998/portafolio.react/issues"
+    },
+    "homepage": "https://github.com/yeison1998/portafolio.react#readme",
+    "dependencies": {
+        "clean-cache": "^1.0.2",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.5.4",
+        "@babel/preset-env": "^7.5.4",
+        "@babel/preset-react": "^7.0.0",
+        "babel": "^6.23.0",
+        "babel-loader": "^8.0.6",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "html-loader": "^0.5.5",
+        "html-webpack-plugin": "^3.2.0",
+        "webpack": "^4.36.1",
+        "webpack-cli": "^3.3.6",
+        "webpack-dev-server": "^3.7.2"
+    }
+}
